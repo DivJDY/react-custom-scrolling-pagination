@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.outside {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  width: 500px;
+  padding: auto;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+.container ul {
+  padding: 10px;
+  margin: 10px;
+  list-style-type: none;
+}
+.container ul li {
+  width: 200px;
+  /* height: 100px; */
+  float: left;
+}
